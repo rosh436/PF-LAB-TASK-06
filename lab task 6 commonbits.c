@@ -8,3 +8,4 @@ int main() {
     scanf("%d", &b);
     printf("Common bits (a & b): %d", a & b);
 }
+
