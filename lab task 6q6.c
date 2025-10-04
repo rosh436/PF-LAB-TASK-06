@@ -1,16 +1,16 @@
 #include <stdio.h>
-
 int main() {
     int i,n = 7;
     int isPrime = 1;
-
-  if (n <= 1) {
+  if (n <= 1){
         isPrime = 0;
-} else{
+} 
+  else{
         for (i = 2; i <= n / 2; i++) {
             if (n % i == 0) {
-                isPrime = 0;
-                break; }
+            isPrime = 0;
+            break; 
+        }
         }
 }
 
@@ -21,4 +21,5 @@ int main() {
 
     return 0;
 }
+
 
